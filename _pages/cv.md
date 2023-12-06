@@ -11,11 +11,16 @@ redirect_from:
 
 Education
 ======
+* Ph.D. in Computer Science, University of Southern California, 2023 - Present
 * B.Sc. in Computer Engineering, Isfahan University of Technology <b>[GPA: 19.49/20]</b>, 2017 - 2022
 * Dimploma in Mathematics & Physics, National Organization for Development of Exceptional Talents, 2013 - 2017
 
 Work experience
 ======
+### Aug 2023 - Present: Research Assistant
+  * University of Southern California
+  * Supervisor: Dr. Mukund Raghothaman
+
 ### Nov 2022 - Feb 2023: Research Assistant
   * Isfahan University of Technology
   * Project Title: Design and implementation of a testbed for emerging intelligent 5G networks
@@ -113,9 +118,9 @@ Teaching experience
 Skills
 ======
 * Operating Systems: Linux, Windows
-* Programming Languages: Python, C/C++, JavaScript, MATLAB, MIPS/x86/AVR Assembly
-* Frameworks and Libraries: Angr, Qt, BeautifulSoup, Cryptography, Scapy, Requests, Selenuim, Sikit, Pandas, NumPy
-* Tools & Technologies: LLVM, Burp Suite, Wireshark, Microsoft SQL Server, Flex, Bison, MiniZinc, OR-Tools, Mininet
+* Programming Languages: Python, C/C++, Java, JavaScript, MATLAB, MIPS/x86/AVR Assembly
+* Frameworks and Libraries: Angr, Qt, BeautifulSoup, Soot, Cryptography, Scapy, Requests, Selenuim, Sikit, Pandas, NumPy
+* Tools & Technologies: LLVM, Burp Suite, WebAssembly, Wireshark, Microsoft SQL Server, Flex, Bison, MiniZinc, OR-Tools, Mininet
 
 Language
 ======
