@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I have recently graduated with a bachelor's degree in computer engineering from the Isfahan University of Technology. Now I am a teaching assistant at the Isfahan University of Technology in the Electrical and Computer Engineering Department. I like to teach my knowledge to others and this is very enjoyable for me.
+Wellcome to my homepage, My name is Sara and currently I am a computer science Phd student at the University of Southern California (USC). Before this, I graduated with a bachelor's degree in computer engineering from the Isfahan University of Technology. 
 
 ### My Research
-I am interested in program analysis and verification. I researched machine learning techniques that can be employed to improve the accuracy and time efficiency of program analysis approaches. I am motivated to collaborate with people who work on the above research areas.
+My research interests include programming languages, software testing, program analysis and verification. More information is available in my CV [https://sarabaradaran.github.io/cv/]
