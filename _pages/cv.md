@@ -43,50 +43,19 @@ Publications
   
 Teaching experience
 ======
-### Spring 2025: Teaching Asistant
-  * University of Southern California
-  * Introduction to Operating Systems
-  * Spring 2025
 
-### Fall 2024: Teaching Asistant
-  * University of Southern California
-  * Security Systems
-  * Fall 2024
+### University of Southern California
+  * Introduction to Operating Systems, Spring 2025
+  * Security Systems, Fall 2024
 
-### Spring 2023: Teaching Asistant
-  * Isfahan University of Technology
-  * Advanced Programming Lab
-  * Spring 2023
-
-### Fall 2021: Teaching Asistant
-  * Isfahan University of Technology
-  * Operating System Lab
-  * Fall 2021, Fall 2022
-
-### Spring 2021: Teaching Asistant
-  * Isfahan University of Technology
-  * Fundamentals of Computer Security
-  * Spring 2021
-
-### Spring 2020: Teaching Asistant
-  * Isfahan University of Technology
-  * Compiler Design
-  * Spring 2020, Fall 2020, Spring 2022
-
-### Spring 2020: Teaching Asistant
-  * Isfahan University of Technology
-  * Algorithm Design and Analysis
-  * Spring 2020, Spring 2022
- 
-### Spring 2019: Teaching Asistant
-  * Isfahan University of Technology
-  * Discrete Mathematical Structures
-  * Spring 2019
-
-### Fall 2018: Teaching Asistant
-  * Isfahan University of Technology
-  * C Programming Lab
-  * Fall 2018, Spring 2019
+### Isfahan University of Technology
+  * Advanced Programming Lab, Spring 2023
+  * Operating System Lab, Fall 2021, Fall 2022
+  * Fundamentals of Computer Security, Spring 2021
+  * Compiler Design, Spring 2020, Fall 2020, Spring 2022
+  * Algorithm Design and Analysis, Spring 2020, Spring 2022
+  * Discrete Mathematical Structures, Spring 2019
+  * C Programming Lab, Fall 2018, Spring 2019
   
 Skills
 ======
