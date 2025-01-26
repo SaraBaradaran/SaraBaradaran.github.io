@@ -15,7 +15,7 @@ Education
 * B.Sc. in Computer Engineering, Isfahan University of Technology, [GPA: 19.49/20], 2017 - 2022
 * Dimploma in Mathematics & Physics, National Organization for Development of Exceptional Talents, 2013 - 2017
 
-Work experience
+Research experience
 ======
 ### Aug 2023 - Present: Research Assistant
   * University of Southern California
