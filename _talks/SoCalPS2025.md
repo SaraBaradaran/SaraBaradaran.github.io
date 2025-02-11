@@ -4,7 +4,7 @@ collection: talks
 date: 2025-02-07
 
 ---
-[19th SoCal PLS: Programming Languages and Systems](https://socalpls.github.io)
+Presented at [19th SoCal PLS: Programming Languages and Systems](https://socalpls.github.io)
 
 
 
