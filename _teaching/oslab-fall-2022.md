@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asistant - Fall 2022"
+title: "Teaching Assistant - Fall 2022"
 collection: teaching
 type: "Operating System Lab"
 permalink:
