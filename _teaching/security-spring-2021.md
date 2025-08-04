@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asistant - Spring 2021"
+title: "Teaching Assistant - Spring 2021"
 collection: teaching
 type: "Fundamentals of Computer Security"
 permalink:
