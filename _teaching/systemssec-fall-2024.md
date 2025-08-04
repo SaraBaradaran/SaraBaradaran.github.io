@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asistant - Fall 2024"
+title: "Teaching Assistant - Fall 2024"
 collection: teaching
 type: "Security Systems"
 permalink:
