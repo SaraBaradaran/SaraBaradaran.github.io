@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asistant - Spring 2023"
+title: "Teaching Assistant - Spring 2023"
 collection: teaching
 type: "Advanced Programming Lab"
 permalink:
