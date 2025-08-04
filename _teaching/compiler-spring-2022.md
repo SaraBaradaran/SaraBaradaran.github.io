@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asistant - Spring 2022"
+title: "Teaching Assistant - Spring 2022"
 collection: teaching
 type: "Compiler Design"
 permalink:
