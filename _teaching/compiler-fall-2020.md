@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asistant - Fall 2020"
+title: "Teaching Assistant - Fall 2020"
 collection: teaching
 type: "Compiler Design"
 permalink:
