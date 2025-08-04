@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asistant - Spring 2019"
+title: "Teaching Assistant - Spring 2019"
 collection: teaching
 type: "Discrete Mathematical Structures"
 permalink:
