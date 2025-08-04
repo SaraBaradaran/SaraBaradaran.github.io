@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asistant - Fall 2018"
+title: "Teaching Assistant - Fall 2018"
 collection: teaching
 type: "C Programming Lab"
 permalink:
