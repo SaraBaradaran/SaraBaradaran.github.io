@@ -10,13 +10,11 @@ redirect_from:
 {% include base_path %}
 
 ## Education
-======
 * Ph.D. in Computer Science, University of Southern California, [GPA: 4.0/4.0], 2023 - Present
 * B.Sc. in Computer Engineering, Isfahan University of Technology, [GPA: 19.49/20], 2017 - 2022
 * Dimploma in Mathematics & Physics, National Organization for Development of Exceptional Talents, 2013 - 2017
 
 ## Research experience
-======
 #### Aug 2023 - Present: Research Assistant
   * University of Southern California
   * Project Title: Probabilistic fault localization using Bayesian inference and counterfactual execution reasoning
@@ -37,13 +35,11 @@ redirect_from:
   * Project Title: Network logs analysis for detecting users behaviours and domains classification
 
 ## Publications
-======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 ## Teaching experience
-======
 #### University of Southern California
   * Introduction to Operating Systems, Spring 2025
   * Security Systems, Fall 2024
