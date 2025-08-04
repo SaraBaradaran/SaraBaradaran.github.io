@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asistant - Spring 2025"
+title: "Teaching Assistant - Spring 2025"
 collection: teaching
 type: "Introduction to Operating Systems"
 permalink:
