@@ -54,7 +54,6 @@ redirect_from:
   * C Programming Lab, Fall 2018, Spring 2019
   
 ## Skills
-======
 * Operating Systems: Linux, Windows
 * Programming Languages: Python, C/C++, Java, JavaScript, MATLAB, MIPS/x86/AVR Assembly
 * Frameworks and Libraries: Angr, Soot, Qt, BeautifulSoup, Cryptography, Scapy, Requests, Selenuim, Sikit, Pandas, NumPy
