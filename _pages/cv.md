@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<div style="font-size: 0.7em;">
+
 ## Education
 * Ph.D. in Computer Science, University of Southern California, [GPA: 4.0/4.0], 2023 - Present
 * B.Sc. in Computer Engineering, Isfahan University of Technology, [GPA: 19.49/20], 2017 - 2022
@@ -58,3 +60,5 @@ redirect_from:
 * Programming Languages: Python, C/C++, Java, JavaScript, MATLAB, MIPS/x86/AVR Assembly
 * Frameworks and Libraries: Angr, Soot, Qt, BeautifulSoup, Cryptography, Scapy, Requests, Selenuim, Sikit, Pandas, NumPy
 * Tools & Technologies: LLVM, Burp Suite, WebAssembly, Wireshark, Microsoft SQL Server, Flex, Bison, MiniZinc, OR-Tools, Mininet
+
+</div>
