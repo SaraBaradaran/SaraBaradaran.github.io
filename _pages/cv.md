@@ -9,18 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
-<div style="font-size: 0.7em;">
+
 
 ## Education
-* Ph.D. in Computer Science, University of Southern California, [GPA: 4.0/4.0], 2023 - Present
-* B.Sc. in Computer Engineering, Isfahan University of Technology, [GPA: 19.49/20], 2017 - 2022
-* Dimploma in Mathematics & Physics, National Organization for Development of Exceptional Talents, 2013 - 2017
+* <div style="font-size: 0.7em;">Ph.D. in Computer Science, University of Southern California, [GPA: 4.0/4.0], 2023 - Present</div>
+* <div style="font-size: 0.7em;">B.Sc. in Computer Engineering, Isfahan University of Technology, [GPA: 19.49/20], 2017 - 2022</div>
+* <div style="font-size: 0.7em;">Dimploma in Mathematics & Physics, National Organization for Development of Exceptional Talents, 2013 - 2017</div>
 
 ## Research experience
 #### Aug 2023 - Present: Research Assistant
-  * University of Southern California
-  * Project Title: Probabilistic fault localization using Bayesian inference and counterfactual execution reasoning
-  * Supervisor: Dr. Mukund Raghothaman
+  * <div style="font-size: 0.7em;">University of Southern California</div>
+  * <div style="font-size: 0.7em;">Project Title: Probabilistic fault localization using Bayesian inference and counterfactual execution reasoning</div>
+  * <div style="font-size: 0.7em;">Supervisor: Dr. Mukund Raghothaman</div>
 
 #### Nov 2022 - Feb 2023: Research Assistant
   * Isfahan University of Technology
@@ -61,4 +61,3 @@ redirect_from:
 * Frameworks and Libraries: Angr, Soot, Qt, BeautifulSoup, Cryptography, Scapy, Requests, Selenuim, Sikit, Pandas, NumPy
 * Tools & Technologies: LLVM, Burp Suite, WebAssembly, Wireshark, Microsoft SQL Server, Flex, Bison, MiniZinc, OR-Tools, Mininet
 
-</div>
