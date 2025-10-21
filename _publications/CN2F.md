@@ -9,4 +9,4 @@ citation: 'Ganji, S., Behnaminia, S., Ahangarpour, A. et al. CN2F: a cloud-nativ
 
 ---
 
-[Download paper here](https://link.springer.com/article/10.1007/s10586-025-05155-w)
+[Download paper here](https://arxiv.org/pdf/2305.18778)
