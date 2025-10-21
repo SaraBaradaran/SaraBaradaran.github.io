@@ -9,4 +9,4 @@ citation: 'Baradaran, S., Heidari, M., Kamali, A. et al. A unit-based symbolic e
 ---
 This paper is an extension of our conference paper entitled "A Unit-Based Symbolic Execution Method for Detecting Heap Overflow Vulnerability in Executable Codes" and proposes a method for improving the efficiency of symbolic execution and detecting memory corruption vulnerabilities in executable codes by restricting the scope of symbolic execution and estimating the program's behavior using machine learning techniques.
 
-[Download paper here](https://github.com/SaraBaradaran/SaraBaradaran.github.io/blob/main/papers/UbSym.pdf)
+[Download paper here](https://raw.githubusercontent.com/SaraBaradaran/SaraBaradaran.github.io/master/UbSym.pdf)
