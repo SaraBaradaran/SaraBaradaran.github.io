@@ -9,4 +9,4 @@ citation: 'Ganji, S., Behnaminia, S., Ahangarpour, A. et al. CN2F: a cloud-nativ
 
 ---
 
-[Download paper here](https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/paper/CN2F.pdf)
+[Download paper here](https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/CN2F.pdf)
