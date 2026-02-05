@@ -6,4 +6,4 @@ date: 2026-12-12
 venue: 'Preprint is Available'
 ---
 
-[Download paper here](https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/paper/Prosecutor.pdf)
+[Download paper here](https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/Prosecutor.pdf)
