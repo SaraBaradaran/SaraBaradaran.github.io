@@ -9,4 +9,4 @@ citation: 'Baradaran, S., Huang, L., Raghothaman, M., & Wang, W. (2024). Reusing
 
 ---
 
-[Download paper here](https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/paper/WasmChecker.pdf)
+[Download paper here](https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/WasmChecker.pdf)
