@@ -6,4 +6,4 @@ date: 2026-12-12
 venue: 'Accepted at VST'
 ---
 
-[Download paper here](https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/paper/FitSlicer.py)
+[Download paper here](https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/FitSlicer.py)
