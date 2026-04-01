@@ -14,10 +14,10 @@ I am interested in program analysis and various aspects of software debugging an
 
 ---
 #### Recent News
-- Attended SoCal PLS 2026
+- Attended SoCal PLS 2026 at USC
 - Served on PLDI AEC in 2026
 - Served on OOPSLA AEC in 2026
-- One paper got accepted at VST 2026
+- One paper got accepted at VST Workshop of SANER 2026
 - One paper got accepted at SANER 2026
 - Served on ACSAC AEC in 2025
-- Attended SoCal PLS 2025
+- Attended SoCal PLS 2025 at UCSD
