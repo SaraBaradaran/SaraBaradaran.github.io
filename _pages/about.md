@@ -13,7 +13,7 @@ I am a third-year Computer Science Ph.D. student at the University of Southern C
 I am interested in program analysis and various aspects of software debugging and testing. More information is available in my [CV](https://raw.githubusercontent.com/SaraBaradaran/SaraBaradaran.github.io/master/CV_SaraBaradaran-8.pdf).
 
 ---
-#### Recent News
+### Recent News
 - Attended SoCal PLS 2026 at USC
 - Served on PLDI AEC in 2026
 - Served on OOPSLA AEC in 2026
