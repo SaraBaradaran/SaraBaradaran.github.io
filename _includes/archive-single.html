@@ -60,5 +60,22 @@
       <p><a href=" {{ post.paperurl }} "><u>[PDF]</u></a></p>
     {% endif %}
 
+    {% if post.desc or post.image %}
+      <div style="display: flex; align-items: flex-start; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
+        
+        {% if post.desc %}
+          <div style="width: 50%; min-width: 280px; border: 1px solid #ddd; padding: 1rem; box-sizing: border-box; background: #fafafa;">
+            {{ post.desc | markdownify }}
+          </div>
+        {% endif %}
+
+        {% if post.image %}
+          <div style="flex: 1; min-width: 220px;">
+            <img src="{{ post.image }}" alt="" style="max-width: 100%; height: auto; display: block;">
+          </div>
+        {% endif %}
+
+      </div>
+    {% endif %}
   </article>
 </div>
