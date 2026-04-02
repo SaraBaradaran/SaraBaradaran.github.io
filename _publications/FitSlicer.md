@@ -7,4 +7,5 @@ venue: 'SANER Workshop on Validation, Analysis and Evolution of Software Tests (
 image: 'https://raw.githubusercontent.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/FitSlicer.png'
 citation: 'https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/FitSlicer.bib'
 paperurl: 'https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/FitSlicer.pdf'
+code: 'https://github.com/SaraBaradaran/FitSlicer'
 ---
