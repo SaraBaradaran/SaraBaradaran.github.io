@@ -53,9 +53,9 @@
     {% endif %}
     
     {% if post.citation and post.paperurl and post.artifact %}
-      <p><a href="{{ post.citation }}"><u>[BibTeX]</u></a> <a href="{{ post.paperurl }}"><u>[PDF]</u></a></p> <a href="{{ post.artifact }}"><u>[Code]</u></a></p> 
+      <p><a href="{{ post.citation }}"><u>[BibTeX]</u></a> <a href="{{ post.paperurl }}"><u>[PDF]</u></a> <a href="{{ post.artifact }}"><u>[Code]</u></a></p> 
     {% elsif post.citation and post.paperurl %}
-      <p><a href="{{ post.citation }}"><u>[BibTeX]</u></a> <a href="{{ post.paperurl }}"><u>[PDF]</u></a></p> </p> 
+      <p><a href="{{ post.citation }}"><u>[BibTeX]</u></a> <a href="{{ post.paperurl }}"><u>[PDF]</u></a></p> 
     {% elsif post.paperurl %}
       <p><a href=" {{ post.paperurl }} "><u>[PDF]</u></a></p>
     {% endif %}
