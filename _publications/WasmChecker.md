@@ -8,4 +8,5 @@ venue: 'IEEE International Conference on Software Analysis, Evolution and Reengi
 image: 'https://raw.githubusercontent.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/WasmChecker.png'
 citation: 'https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/WasmChecker.bib'
 paperurl: 'https://raw.githack.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/WasmChecker.pdf'
+code: 'https://github.com/SaraBaradaran/WasmChecker'
 ---
