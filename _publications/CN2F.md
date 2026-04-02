@@ -1,7 +1,7 @@
 ---
 title: "CN2F: A Cloud-Native Cellular Network Framework"
 collection: publications
-excerpt: 'In this paper, we share our findings, accompanied by a comprehensive online codebase, about the best practice of using different open-source projects in order to realize a flexible testbed for academia and industrial Research and Development (R&D) activities on the future generation of cellular networks.'
+excerpt: 'Upcoming cellular networks aim to enhance the efficiency and flexibility of mobile systems by incorporating technologies such as Software-Defined Networking (SDN), Network Function Virtualization (NFV), and Network Slicing (NS). Several open-source projects provide implementations of components across different cellular generations. In this paper, we leverage these projects to build a flexible and extensible testbed for experimenting with next-generation cellular networks.'
 date: 2025-11-01
 venue: 'Cluster Computing'
 image: 'https://raw.githubusercontent.com/SaraBaradaran/SaraBaradaran.github.io/master/papers/CN2F.png'
