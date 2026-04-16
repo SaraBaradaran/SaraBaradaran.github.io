@@ -14,6 +14,7 @@ I am interested in program analysis and various aspects of software debugging an
 
 ---
 ### Recent News
+- One paper got accepted at SOAP Workshop of PLDI 2026
 - Attended SoCal PLS 2026 at USC
 - Served on PLDI AEC in 2026
 - Served on OOPSLA AEC in 2026
