@@ -14,6 +14,8 @@ I am interested in program analysis and various aspects of software debugging an
 
 ---
 ### Recent News
+- Attended PLDI 2026 at Boulder and Presented SemQL at SOAP
+- One paper got accepted at OOPSLA 2026
 - Passed my PhD qualifying exam
 - One paper got accepted at SOAP Workshop of PLDI 2026
 - Attended SoCal PLS 2026 at USC
