@@ -59,9 +59,15 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2017
+    - year: 2024
       items: 
-        - Ranked in top 1% in the National Entrance Exam for B.Sc. of Iran, among more than 148,000 students in the field of Mathematics and Physics
+        - Participating as reviewer at CVsports workshop, CVPRW 2024.
+        - Best paper award at International Conference on Machine Vision and Image Processing 2024.
+
+    - year: 2023
+      items: 
+        - Participating as a part of organizer team of SoccerNet 2023 Challenges
+        - Participating as reviewer in the peer review process for AUT Journal of Electrical Engineering
 
     - year: 2021
       items: 
@@ -69,17 +75,9 @@
         - Ranked 10th (top 0.05%) in the National Entrance Exam for M.Sc. degree in Computer Engineering
         - Ranked 5th at National Computer Engineering Olympiad
 
-    - year: 2023
+    - year: 2017
       items: 
-        - Participating as a part of organizer team of SoccerNet 2023 Challenges
-        - Participating as reviewer in the peer review process for AUT Journal of Electrical Engineering
-
-    - year: 2024
-      items: 
-        - Participating as reviewer at CVsports workshop, CVPRW 2024.
-        - Best paper award at International Conference on Machine Vision and Image Processing 2024.
-
-
+        - Ranked in top 1% in the National Entrance Exam for B.Sc. of Iran, among more than 148,000 students in the field of Mathematics and Physics
 
 - title: Research Interests
   type: nested_list
