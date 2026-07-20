@@ -27,6 +27,14 @@
 - title: Experience
   type: time_table
   contents:
+
+    - title: Research and Develop Position
+      institution: AlgoNet Research, Tehran, Iran
+      year: 2024-Present
+      description:
+        - Description 1. Developement of a novel relative positional encoding method for length extrapolation of LLMs in next token prediction task by learning context-aware biases. 
+        - Description 2. Development of a comprehensive text detection and recognition system using multimodal VLMs for Persian document analysis.
+  
     - title: Research Assistant
       institution: Sharif University of Technology, Tehran, Iran
       year: 2021-2024
@@ -34,24 +42,11 @@
         - Description 1. The proposal and implementation of a multi-purpose part-based person representation method for part-based tracking of persons in team sport videos.
         - Description 2. The proposal and implementation of a pair-wise distillation approach by transferring inter-class similarities for semantic segmentation.
 
-    - title: Research Assistant
-      institution: Sharif University of Technology, Tehran, Iran
-      year: 2023-2024
-      description:
-        - Description 1. An Experimental Survey on Farsi Transformer-based Retrival Question Answering.
-        - Description 2. Working on NLP techniques tailored for the linguistic variations in the Kurdish language family, providing linguistic resources, multilingual models, and NLP pipelines to address essential tasks and facilitate cross-dialect communication within the Kurdish-speaking community.
-
     - title: Research Internship
       institution: UCLouvain, Louvain-la-Neuve, Belgium
       year: Summer 2022
       description:
         - Description. The development and implementation of a multi-object tracking solution exploiting re-identification descriptors.
-            
-    - title: Undergraduate Research Assistant
-      institution: Isfahan University of Technology, Isfahan, Iran
-      year: 2021
-      description:
-        - Description. The development on an open-source iris recognition system and making improvements in segmentation and feature encoding stages.
     
 
 - title: Open Source Projects
