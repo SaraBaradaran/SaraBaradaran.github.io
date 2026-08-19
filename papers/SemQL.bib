@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3814987.3814993,
+author = {Baradaran, Sara and Nazari, Amirmohammad and Raghothaman, Mukund},
+title = {LLM-Integrated Declarative Program Analysis},
+year = {2026},
+isbn = {9798400727092},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3814987.3814993},
+doi = {10.1145/3814987.3814993},
+abstract = {Program analysis tools such as CodeQL enable programmers to express their questions about codebases in the form of declarative queries, which are then evaluated over structured representations of the code. These versatile tools have broad applications in bug finding, vulnerability discovery, and codebase exploration. Still, they are limited in their ability to answer questions that rely on semantic judgments which cannot be expressed or decided using program analysis tools alone, e.g., identifying string literals that contain private information or violations of naming conventions.   In this paper, we present SemQL, a system which extends declarative program analysis frameworks with the ability to invoke an LLM as an external oracle. SemQL allows developers to write queries which combine structural reasoning with semantic (extra-analytic) judgments. We show the real-world value of such a system by collecting a set of analytic questions that require semantic reasoning beyond what is deducible simply from the structure of the code. We also present an algorithm which efficiently evaluates these queries while minimizing costly oracle invocations, and demonstrate its effectiveness in practical program analysis tasks.},
+booktitle = {Proceedings of the 15th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis},
+pages = {41–47},
+numpages = {7},
+keywords = {CodeQL, code question answering, declarative program analysis, large language model, static analysis},
+location = {Boulder, CO, USA},
+series = {SOAP '26}
+}
