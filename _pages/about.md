@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: Sara.png
+  image: Amir.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Ginsburg Hall (GCS), 1031 Downey Way</p>
