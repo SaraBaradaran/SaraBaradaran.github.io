@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
+
 group :jekyll_plugins do
+    gem 'jekyll', '~> 4.4'
     gem 'classifier-reborn'
-    gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
@@ -21,6 +22,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
+
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
