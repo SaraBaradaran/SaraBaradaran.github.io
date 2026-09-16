@@ -3,18 +3,43 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{akbari2026towards,
-  title={Toward IIT-Inspired Consciousness in LLMs: A Reward-Based Learning Framework}, 
-  author={Akbari, Hamid Reza and Sameti, Mohammad Hossein and Mansourian, Amir M and Rohban, Mohammad Hossein and Sameti, Hossein},
-  year={2026},
-  pdf={consciousness.pdf},
+@article{baradaran2023unit,
+  title={A unit-based symbolic execution method for detecting memory corruption vulnerabilities in executable codes},
+  author={Baradaran, Sara and Heidari, Mahdi and Kamali, Ali and Mouzarani, Maryam},
+  journal={International Journal of Information Security},
+  year={2023},
+  publisher={Springer},
   bibtex_show={true},
-  abbr={Arxiv},
+  pdf={RichKD.pdf},
   code={https://github.com/MH-Sameti/LLM_PostTraining},
-  abstract={The pursuit of Artificial General Intelligence (AGI) is a central goal in language model devel- opment, in which consciousness-like processing could serve as a key facilitator. While current lan- guage models are not conscious, they exhibit be- haviors analogous to certain aspects of conscious- ness. This paper investigates the implementation of a leading theory of consciousness—Integrated Information Theory (IIT)—within language mod- els via a reward-based learning paradigm. IIT pro- vides a formal, axiom-based mathematical frame- work for quantifying consciousness. Drawing inspiration from its core principles, we formulate a novel reward function that quantifies a text’s causality, coherence and integration, characteris- tics associated with conscious processing. Em- pirically, it is found that optimizing for this IIT- inspired reward leads to more concise text gen- eration. On out of domain tasks, careful tuning achieves up to a 31% reduction in output length while preserving accuracy levels comparable to the base model. In addition to primary task perfor- mance, the broader effects of this training method- ology on the model’s confidence calibration and test-time computational scaling is analyzed. The proposed framework offers significant practical advantages: it is conceptually simple, computa- tionally efficient, requires no external data or aux- iliary models, and leverages a general, capability- driven signal rather than task-specific heuristics.},
-  journal={arXiv preprint}
+  abstract={Memory corruption is a serious class of software vulnerabilities, which requires careful attention to be detected and removed from applications before getting exploited and harming the system users. Symbolic execution is a well-known method for analyzing programs and detecting various vulnerabilities, e.g., memory corruption. Although this method is sound and complete in theory, it faces some challenges, such as path explosion, when applied to real-world complex programs. In this paper, we present a method for improving the efficiency of symbolic execution and detecting four classes of memory corruption vulnerabilities in executable codes, i.e., heap-based buffer overflow, stack-based buffer overflow, use-after-free, and double-free. We perform symbolic execution only on test units rather than the whole program to lower the chance of path explosion. In our method, test units are considered parts of the program’s code, which might contain vulnerable statements and are statically identified based on the specifications of memory corruption vulnerabilities. Then, each test unit is symbolically executed to calculate path and vulnerability constraints for each statement of the unit, which determine the conditions on unit input data for executing that statement or activating vulnerabilities in it, respectively. Solving these constraints gives us input values for the test unit, which execute the desired statements and reveal vulnerabilities in them. Finally, we use machine learning to approximate the correlation between system and unit input data. Thereby, we generate system inputs that enter the program, reach vulnerable instructions in the desired test unit, and reveal vulnerabilities in them. This method is implemented as a plug-in for angr framework and evaluated using a group of benchmark programs. The experiments show its superiority over similar tools in accuracy and performance.},
 }
 
+@inproceedings{mouzarani2022unit,
+  title={A unit-based symbolic execution method for detecting heap overflow vulnerability in executable codes},
+  author={Mouzarani, Maryam and Kamali, Ali and Baradaran, Sara and Heidari, Mahdi},
+  journal={International Conference on Tests and Proofs},
+  year={2022},
+  publisher={Springer},
+  pdf={RichKD.pdf},
+  bibtex_show={true},
+  abbr={TAP},
+  code={https://github.com/MH-Sameti/LLM_PostTraining},
+  abstract={Symbolic execution has been a popular method for detecting vulnerabilities of programs in recent years, yet path explosion has remained a significant challenge in its application. This paper proposes a method for improving the efficiency of symbolic execution and detecting heap overflow vulnerability in executable codes. Instead of applying symbolic execution to the whole program, our method initially determines test units of the program, which are parts of the code that might contain heap overflow vulnerability. This is performed through static analysis and based on the specification of heap overflow vulnerability. Then, it applies symbolic execution to the test units and extracts a constraint tree for each unit. Every node in this tree contains the path and vulnerability constraints on the unit input data for executing and overflowing heap buffers in that node. Solving these constraints gives us input values for the test unit that execute the desired nodes and cause heap overflow. Finally, we use curve fitting and treatment learning to approximate the relation between system and unit input data as a function. Using this function, we generate system inputs that enter the program, reach vulnerable instructions in the desired test unit, and cause heap overflow in those instructions. This method is implemented as a plugin for angr framework and evaluated using a group of benchmark programs. The experiments show its superiority over similar tools in accuracy and performance.}
+}
+
+@inproceedings{11576737,
+  author={Baradaran, Sara and Huang, Liyan and Raghothaman, Mukund and Wang, Weihang},
+  journal={2026 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)}, 
+  title={Reusing Legacy Code in Wasm: Key Challenges of Compilation and Code Semantics Preservation}, 
+  year={2026},
+  pdf={RichKD.pdf},
+  bibtex_show={true},
+  publisher={IEEE},
+  abbr={SANER},
+  code={https://github.com/MH-Sameti/LLM_PostTraining},
+  abstract={WebAssembly (Wasm) has emerged as a powerful technology for executing performance-critical code and reusing legacy code in web browsers. With its increasing adoption, ensuring the reliability of WebAssembly code becomes paramount. In this paper, we study how well WebAssembly compilers fulfill code reusability. Specifically, we investigate (a) the challenges that arise when cross-compiling a high-level language codebase into WebAssembly, and (b) how faithfully WebAssembly compilers preserve code semantics in this new binary. Through a study of open-source codebases, we identify the key challenges in cross-compiling legacy C/C++ code into WebAssembly, highlighting the risks of silent miscompilation and compile-time errors. We categorize these challenges based on their root causes and propose corresponding solutions. We then introduce a differential testing framework, named WasmChecker, to check the semantic equivalence between native x86-64 and WebAssembly binaries. Using WasmChecker, we provide evidence that WebAssembly compilers do not necessarily preserve original code semantics. Our analysis shows that such miscompilation occurs due to non-uniform implementations of standard libraries, unsupported system calls / APIs, WebAssembly's unique features, and compiler bugs. In particular, we identified 11 new bugs in the Emscripten compiler toolchain. As proof of concept, we publicly release our framework and the collected dataset of open-source codebases.}
+}
 
 @article{mansourian2026enriching,
   title={Enriching Knowledge Distillation with Cross-Modal Teacher Fusion}, 
@@ -28,7 +53,6 @@
   abstract={Multi-teacher knowledge distillation (KD), a more effective technique than traditional single-teacher methods, transfers knowledge from expert teachers to a compact student model using logit or feature matching. However, most existing approaches lack knowledge diversity, as they rely solely on unimodal visual information, overlooking the potential of cross-modal representations. In this work, we explore the use of CLIP's vision-language knowledge as a complementary source of supervision for KD, an area that remains largely underexplored. We propose a simple yet effective framework that fuses the logits and features of a conventional teacher with those from CLIP. By incorporating CLIP's multi-prompt textual guidance, the fused supervision captures both dataset-specific and semantically enriched visual cues. Beyond accuracy, analysis shows that the fused teacher yields more confident and reliable predictions, significantly increasing confident-correct cases while reducing confidently wrong ones. Moreover, fusion with CLIP refines the entire logit distribution, producing semantically meaningful probabilities for non-target classes, thereby improving inter-class consistency and distillation quality. Despite its simplicity, the proposed method, Enriching Knowledge Distillation (RichKD), consistently outperforms most existing baselines across multiple benchmarks and exhibits stronger robustness under distribution shifts and input corruptions.},
   journal={IEEE/CVF Conference on Computer Vision and Pattern Recognition}
 }
-
 
 @article{mansourian2026concept,
   title={No Concept Left Behind: Test-Time Optimization for Compositional Text-to-Image Generation}, 
