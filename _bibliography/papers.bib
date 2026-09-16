@@ -49,12 +49,12 @@
   booktitle={2026 IEEE International Conference on Software Analysis, Evolution and Reengineering - Companion (SANER-C)}, 
   title={Effective Minimization of Failure-Inducing Tests Using Convention-Aware Slicing}, 
   year={2026},
-  %pdf={RichKD.pdf},
+  pdf={RichKD.pdf},
   bibtex_show={true},
   publisher={IEEE},
   abbr={VST},
   code={https://github.com/SaraBaradaran/FitSlicer},
-  preview={KD.jpg},
+  %preview={KD.jpg},
   abstract={The minimization of failing tests is among the first steps in the debugging process. In this paper, we propose a slicing-based approach to this problem. The technique utilizes a new data flow analysis which leverages coding conventions to efficiently approximate the behavior of callee procedures without being aware of their code. This allows us to quickly derive smaller test versions which trigger the same failure as the original tests. We also incorporate static and dynamic analysis to preserve necessary control dependencies, which further guarantees the well-formedness and executability of the output tests. We have implemented our approach in a tool named FITSLICER, which performs test case minimization for Java programs. When applied to real-world failing tests from the Defects4J dataset, our evaluation shows that FITSLICER reduces the size of these tests on average by 40%. Moreover, when the minimized tests are executed, in 53% of the cases, they create failing traces which are on average 24% shorter than the original traces. These simplified test versions also allow DStar, the most effective spectrum-based fault localization formula, to identify 11% and 7% more true faults within its top-1 and top-5 predictions, respectively.}
 }
 
