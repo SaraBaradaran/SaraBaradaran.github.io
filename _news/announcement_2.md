@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2025-02-30
+date: 2025-09-5
 inline: true
 related_posts: false
 ---
 
-Attended SoCal PLS 2025 at UCSD
+Served on ACSAC AEC in 2025
 
