@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I attended PLDI at Boulder and presented our SemQL paper at SOAP.
+I attended PLDI 2026 at Boulder and presented our SemQL paper at SOAP.
 
