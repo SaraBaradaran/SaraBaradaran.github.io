@@ -21,3 +21,5 @@ social: true  # includes social icons at the bottom of the page
 I am a PhD student in the <a href='https://www.cs.usc.edu'>Thomas Lord Department of Computer Science</a> at the <a href='https://www.usc.edu/'>University of Southern California (USC)</a>, advised by <a href='https://r-mukund.github.io'>Dr. Mukund Raghothaman.
 
 My research interests lie broadly in software engineering and programming languages. I previously earned an M.Sc. in Computer Science form the University of Southern California and a B.Sc. in Computer Engineering from the Isfahan University of Technology (IUT).
+
+I am always happy to work with new people on interesting problems. If you are interested in collaborating, feel free to send me an email!
