@@ -84,19 +84,12 @@
   type: time_table
   contents:
     - title: Journal Reviewer
-      year: 2025-2026
       description:
-        - ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 and 2026
-        - IEEE Access, 2026
+        - IEEE Access 2026, TOSEM 2025, 2026
 
     - title: Artifact Evaluation Committee
-      year: 2025-2027
       description:
-        - IEEE Symposium on Security and Privacy (IEEE S&P), 2027
-        - ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL), 2027
-        - ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA), 2026
-        - ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), 2026
-        - IEEE Annual Computer Security Applications Conference (ACSAC), 2025
+        - IEEE S&P 2027, POPL 2027, OOPSLA 2026, PLDI 2026, ACSAC 2025
 
 - title: Teaching Experience
   type: time_table
