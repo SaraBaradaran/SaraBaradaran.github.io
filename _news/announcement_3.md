@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-One paper got accepted at SANER 2026
+Our paper paper "Reusing Legacy Code in Wasm: Key Challenges of Compilation and Code Semantics Preservation" got accepted at SANER 2026
 
