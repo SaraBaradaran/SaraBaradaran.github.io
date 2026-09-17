@@ -58,8 +58,8 @@
   contents:
     - title:
       items:
-      - SemQL: An extension of the CodeQL query language for writing semantic queries over code.
-      - Prosecutor: Fault localization tool for Java software that leverages counterfactual reasoning and Bayesian inference.
+      - **SemQL** An extension of the CodeQL query language for writing semantic queries over code.
+      - **Prosecutor** Fault localization tool for Java software that leverages counterfactual reasoning and Bayesian inference.
       - FitSlicer: A Java code slicer for effective test case minimization.
       - WasmChecker: Framework for differential testing between C/C++ programs and their WebAssembly counterparts.
       - UbSym: Framework for detecting memory corruption vulnerabilities in x86-64 binary code.
