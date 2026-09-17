@@ -54,14 +54,16 @@
         - Developed an automated framework for detecting software vulnerabilities in binary executables.
 
 - title: Software Projects
-  type: list
+  type: nested_list
   contents:
-    - SemQL: An extension of the CodeQL query language for writing semantic queries over code.
-    - Prosecutor: Fault localization tool for Java software that leverages counterfactual reasoning and Bayesian inference.
-    - FitSlicer: A Java code slicer for effective test case minimization.
-    - WasmChecker: Framework for differential testing between C/C++ programs and their WebAssembly counterparts.
-    - UbSym: Framework for detecting memory corruption vulnerabilities in x86-64 binary code.
-    - Wuzzer: Web fuzzer for detecting XSS, SQL, and command injection vulnerabilities in websites.
+    - title:
+      items:
+      - SemQL: An extension of the CodeQL query language for writing semantic queries over code.
+      - Prosecutor: Fault localization tool for Java software that leverages counterfactual reasoning and Bayesian inference.
+      - FitSlicer: A Java code slicer for effective test case minimization.
+      - WasmChecker: Framework for differential testing between C/C++ programs and their WebAssembly counterparts.
+      - UbSym: Framework for detecting memory corruption vulnerabilities in x86-64 binary code.
+      - Wuzzer: Web fuzzer for detecting XSS, SQL, and command injection vulnerabilities in websites.
 
 - title: Academic Service
   type: time_table
@@ -104,8 +106,10 @@
     - Placed 2nd in the Junior Soccer Open Weight League at the 2015 RoboCup IranOpen International Competitions.
     
 - title: Research Interests
-  type: list
+  type: nested_list
   contents:
+    - title:
+      items:
         - Program Analysis
         - Software Testing and Verification
         - Automated Reasoning
