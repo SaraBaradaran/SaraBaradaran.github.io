@@ -17,19 +17,19 @@
       institution: University of Southern California, Los Angeles, USA
       year: 2023-Present
       description:
-        - GPA: 4.0/4.0
+        - GPA&#58; 4.0/4.0
 
     - title: M.Sc. in Computer Science
       institution: University of Southern California, Los Angeles, USA
       year: 2023-2025
       description:
-        - GPA: 4.0/4.0
+        - GPA&#58; 4.0/4.0
 
     - title: B.Sc. in Computer Engineering
       institution: Isfahan University of Technology, Isfahan, Iran
       year: 2017-2022
       description:
-        - GPA: 19.49/20 (4.0/4.0)
+        - GPA&#58; 19.49/20 (4.0/4.0)
 
 - title: Research & Work Experience
   type: time_table
@@ -98,12 +98,13 @@
         - C Programming Lab, Fall 2018, Spring 2019
 
 - title: Honors and Awards
-  type: time_table
+  type: nested_list
   contents:
-  description:
-    - Ranked 1st in the Electrical and Computer Engineering Department of Isfahan University of Technology among more than 280 undergraduate students.
-    - Ranked in the top 0.5% in Iran's National Entrance Exam for B.Sc. programs in Mathematics and Physics.
-    - Placed 2nd in the Junior Soccer Open Weight League at the 2015 RoboCup IranOpen International Competitions.
+    - title:
+      items:
+      - Ranked 1st in the Electrical and Computer Engineering Department of Isfahan University of Technology among more than 280 undergraduate students.
+      - Ranked in the top 0.5% in Iran's National Entrance Exam for B.Sc. programs in Mathematics and Physics.
+      - Placed 2nd in the Junior Soccer Open Weight League at the 2015 RoboCup IranOpen International Competitions.
     
 - title: Research Interests
   type: nested_list
