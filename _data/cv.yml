@@ -98,12 +98,18 @@
         - C Programming Lab, Fall 2018, Spring 2019
 
 - title: Honors and Awards
-  type: nested_list
+  type: time_table
   contents:
-    - title:
+    - year: 2017–2022
       items:
       - Ranked 1st in the Electrical and Computer Engineering Department of Isfahan University of Technology among more than 280 undergraduate students.
+
+    - year: 2017
+      items:
       - Ranked in the top 0.5% in Iran's National Entrance Exam for B.Sc. programs in Mathematics and Physics.
+
+    - year: 2015
+      items:
       - Placed 2nd in the Junior Soccer Open Weight League at the 2015 RoboCup IranOpen International Competitions.
     
 - title: Research Interests
