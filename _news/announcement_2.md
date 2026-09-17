@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Served on ACSAC AEC in 2025
+I served as a member of the Artifact Evaluation Committee for ACSAC 2025.
 
