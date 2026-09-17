@@ -96,37 +96,29 @@
   contents:
     - title: Teaching Assistant
       institution: University of Southern California, Los Angeles, USA
-      year: 2024-2025
       description:
-        - CSCI 350, Introduction to Operating Systems
-        - CSCI 530, Security Systems
+        - Introduction to Operating Systems, Spring 2025
+        - Security Systems, Fall 2024
 
     - title: Teaching Assistant
       institution: Isfahan University of Technology, Isfahan, Iran
-      year: 2018-2023
       description:
-        - Advanced Programming Lab
-        - Operating Systems Lab
-        - Fundamentals of Computer Security
-        - Compiler Design
-        - Algorithm Design and Analysis
-        - Discrete Mathematical Structures
-        - C Programming Lab
+        - Advanced Programming Lab, Spring 2023
+        - Operating Systems Lab, Fall 2021, Fall 2022
+        - Fundamentals of Computer Security, Spring 2021
+        - Compiler Design, Spring 2020, Fall 2020, Spring 2022
+        - Algorithm Design and Analysis, Spring 2020, Spring 2022
+        - Discrete Mathematical Structures, Spring 2019
+        - C Programming Lab, Fall 2018, Spring 2019
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2017-2022
-      items:
         - Ranked 1st in the Electrical and Computer Engineering Department of Isfahan University of Technology among more than 280 undergraduate students.
-
-    - year: 2017
-      items:
+        
         - Ranked in the top 0.5% in Iran's National Entrance Exam for B.Sc. programs in Mathematics and Physics.
 
-    - year: 2015
-      items:
-        - Placed 2nd in the Junior Soccer Open Weight League at the RoboCup IranOpen International Competitions.
+        - Placed 2nd in the Junior Soccer Open Weight League at the 2015 RoboCup IranOpen International Competitions.
 
 - title: Research Interests
   type: nested_list
