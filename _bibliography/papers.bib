@@ -3,6 +3,19 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{Prosecutor,
+  title={Prosecutor: Bayesian Counterfactual Fault Localization},
+  author={Baradaran, Sara and Huang, Yifei and Le, Wei and Raghothaman, Mukund}
+  year = {2026},
+  publisher = {ACM},
+  abstract = {Bayesian reasoning has emerged as a promising approach to fault localization, where the introduction of errors and their subsequent propagation through faulty executions is treated as a stochastic  process. One can then perform Bayesian inference on a probabilistic model encoding the program execution to associate individual statements and values with a posterior probability of being erroneous. In this paper, we propose a new graph representation that effectively models error propagation through failing program executions. This structure, which we call the Error Propagation Graph (EPG), extends prior probabilistic approaches by incorporating richer inter-procedural relationships and accounting for the influence of unexplored control-flow branches that may affect variable values. We also show how EPGs can be constructed efficiently and compactly, and how this structure enables the selection of a set of counterfactual experiments, each involving artificially flipping a suspicious branch predicate at runtime and observing its downstream effect on the test outcome. The results of these experiments provide additional evidence that can be incorporated into the EPG to confirm or refute the model's initial suspiciousness estimates. We have implemented this technique in a tool named Prosecutor and evaluated it on 470 buggy versions of 13 projects from the Defects4J benchmark suite. Our experimental evaluation shows that Prosecutor places 40% of the true fault locations within its top-3 predictions. The technique also significantly outperforms a diverse set of baselines by identifying at least 10%, 11%, 15%, and 19% more buggy statements than each of the baselines in its top-1, top-3, top-5, and top-10 predictions, respectively.},
+  journal = {Proc. ACM Program. Lang.},
+  abbr={OOPSLA'26},
+  bibtex_show={true},
+  pdf={Prosecutor.pdf},
+  code={https://doi.org/10.5281/zenodo.21941781},
+}
+
 @article{UbSym,
   title={A unit-based symbolic execution method for detecting memory corruption vulnerabilities in executable codes},
   author={Baradaran, Sara and Heidari, Mahdi and Kamali, Ali and Mouzarani, Maryam},
