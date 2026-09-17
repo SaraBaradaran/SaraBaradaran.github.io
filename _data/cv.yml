@@ -56,17 +56,10 @@
 - title: Software Projects
   type: time_table
   contents:
-    - title: SemQL
-      description:
-        - An extension of the CodeQL query language for writing semantic queries over code.
-
-    - title: Prosecutor
-      description:
-        - Fault localization tool for Java software that leverages counterfactual reasoning and Bayesian inference.
-
-    - title: FitSlicer
-      description:
-        - A Java code slicer for effective test case minimization.
+      items:
+        - SemQL: An extension of the CodeQL query language for writing semantic queries over code.
+        - Prosecutor: Fault localization tool for Java software that leverages counterfactual reasoning and Bayesian inference.
+        - FitSlicer: A Java code slicer for effective test case minimization.
 
     - title: WasmChecker
       description:
@@ -89,7 +82,8 @@
 
     - title: Artifact Evaluation Committee
       description:
-        - IEEE S&P 2027, POPL 2027, OOPSLA 2026, PLDI 2026, ACSAC 2025
+        - IEEE S&P 2027, POPL 2027
+        - OOPSLA 2026, PLDI 2026, ACSAC 2025
 
 - title: Teaching Experience
   type: time_table
@@ -114,10 +108,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+      items:
         - Ranked 1st in the Electrical and Computer Engineering Department of Isfahan University of Technology among more than 280 undergraduate students.
-        
         - Ranked in the top 0.5% in Iran's National Entrance Exam for B.Sc. programs in Mathematics and Physics.
-
         - Placed 2nd in the Junior Soccer Open Weight League at the 2015 RoboCup IranOpen International Competitions.
 
 - title: Research Interests
