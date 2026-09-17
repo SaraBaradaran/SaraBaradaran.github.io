@@ -12,7 +12,7 @@
   bibtex_show={true},
   pdf={RichKD.pdf},
   code={https://github.com/SoftwareSecurityLab/UbSym},
-  preview={KD.jpg},
+  %preview={KD.jpg},
   abstract={Memory corruption is a serious class of software vulnerabilities, which requires careful attention to be detected and removed from applications before getting exploited and harming the system users. Symbolic execution is a well-known method for analyzing programs and detecting various vulnerabilities, e.g., memory corruption. Although this method is sound and complete in theory, it faces some challenges, such as path explosion, when applied to real-world complex programs. In this paper, we present a method for improving the efficiency of symbolic execution and detecting four classes of memory corruption vulnerabilities in executable codes, i.e., heap-based buffer overflow, stack-based buffer overflow, use-after-free, and double-free. We perform symbolic execution only on test units rather than the whole program to lower the chance of path explosion. In our method, test units are considered parts of the program’s code, which might contain vulnerable statements and are statically identified based on the specifications of memory corruption vulnerabilities. Then, each test unit is symbolically executed to calculate path and vulnerability constraints for each statement of the unit, which determine the conditions on unit input data for executing that statement or activating vulnerabilities in it, respectively. Solving these constraints gives us input values for the test unit, which execute the desired statements and reveal vulnerabilities in them. Finally, we use machine learning to approximate the correlation between system and unit input data. Thereby, we generate system inputs that enter the program, reach vulnerable instructions in the desired test unit, and reveal vulnerabilities in them. This method is implemented as a plug-in for angr framework and evaluated using a group of benchmark programs. The experiments show its superiority over similar tools in accuracy and performance.},
 }
 
@@ -24,9 +24,9 @@
   publisher={Springer},
   pdf={RichKD.pdf},
   bibtex_show={true},
-  abbr={TAP},
+  abbr={TAP'22},
   code={https://github.com/SoftwareSecurityLab/Heap-Overflow-Detection},
-  preview={KD.jpg},
+  %preview={KD.jpg},
   abstract={Symbolic execution has been a popular method for detecting vulnerabilities of programs in recent years, yet path explosion has remained a significant challenge in its application. This paper proposes a method for improving the efficiency of symbolic execution and detecting heap overflow vulnerability in executable codes. Instead of applying symbolic execution to the whole program, our method initially determines test units of the program, which are parts of the code that might contain heap overflow vulnerability. This is performed through static analysis and based on the specification of heap overflow vulnerability. Then, it applies symbolic execution to the test units and extracts a constraint tree for each unit. Every node in this tree contains the path and vulnerability constraints on the unit input data for executing and overflowing heap buffers in that node. Solving these constraints gives us input values for the test unit that execute the desired nodes and cause heap overflow. Finally, we use curve fitting and treatment learning to approximate the relation between system and unit input data as a function. Using this function, we generate system inputs that enter the program, reach vulnerable instructions in the desired test unit, and cause heap overflow in those instructions. This method is implemented as a plugin for angr framework and evaluated using a group of benchmark programs. The experiments show its superiority over similar tools in accuracy and performance.}
 }
 
@@ -38,9 +38,9 @@
   pdf={RichKD.pdf},
   bibtex_show={true},
   publisher={IEEE},
-  abbr={SANER},
+  abbr={SANER'26},
   code={https://github.com/SaraBaradaran/WasmChecker},
-  preview={KD.jpg},
+  %preview={KD.jpg},
   abstract={WebAssembly (Wasm) has emerged as a powerful technology for executing performance-critical code and reusing legacy code in web browsers. With its increasing adoption, ensuring the reliability of WebAssembly code becomes paramount. In this paper, we study how well WebAssembly compilers fulfill code reusability. Specifically, we investigate (a) the challenges that arise when cross-compiling a high-level language codebase into WebAssembly, and (b) how faithfully WebAssembly compilers preserve code semantics in this new binary. Through a study of open-source codebases, we identify the key challenges in cross-compiling legacy C/C++ code into WebAssembly, highlighting the risks of silent miscompilation and compile-time errors. We categorize these challenges based on their root causes and propose corresponding solutions. We then introduce a differential testing framework, named WasmChecker, to check the semantic equivalence between native x86-64 and WebAssembly binaries. Using WasmChecker, we provide evidence that WebAssembly compilers do not necessarily preserve original code semantics. Our analysis shows that such miscompilation occurs due to non-uniform implementations of standard libraries, unsupported system calls / APIs, WebAssembly's unique features, and compiler bugs. In particular, we identified 11 new bugs in the Emscripten compiler toolchain. As proof of concept, we publicly release our framework and the collected dataset of open-source codebases.}
 }
 
@@ -52,7 +52,7 @@
   pdf={RichKD.pdf},
   bibtex_show={true},
   publisher={IEEE},
-  abbr={VST},
+  abbr={VST'26},
   code={https://github.com/SaraBaradaran/FitSlicer},
   %preview={KD.jpg},
   abstract={The minimization of failing tests is among the first steps in the debugging process. In this paper, we propose a slicing-based approach to this problem. The technique utilizes a new data flow analysis which leverages coding conventions to efficiently approximate the behavior of callee procedures without being aware of their code. This allows us to quickly derive smaller test versions which trigger the same failure as the original tests. We also incorporate static and dynamic analysis to preserve necessary control dependencies, which further guarantees the well-formedness and executability of the output tests. We have implemented our approach in a tool named FITSLICER, which performs test case minimization for Java programs. When applied to real-world failing tests from the Defects4J dataset, our evaluation shows that FITSLICER reduces the size of these tests on average by 40%. Moreover, when the minimized tests are executed, in 53% of the cases, they create failing traces which are on average 24% shorter than the original traces. These simplified test versions also allow DStar, the most effective spectrum-based fault localization formula, to identify 11% and 7% more true faults within its top-1 and top-5 predictions, respectively.}
@@ -67,7 +67,7 @@
   pdf={RichKD.pdf},
   bibtex_show={true},
   code={https://github.com/CN2F/core},
-  preview={KD.jpg},
+  %preview={KD.jpg},
   abstract={Upcoming cellular networks aim to improve the efficiency and flexibility of mobile networks by incorporating various technologies, such as Software-Defined Networking (SDN), Network Function Virtualization (NFV), and Network Slicing (NS). There exist open-source projects that implement components of different cellular generations. In this paper, we elaborate on how to use these open-source projects to realize a flexible and extendable testbed for conducting experiments on the future generation of cellular networks. In particular, a Cloud-Native Cellular Network Framework (CN2F) is presented, which uses OpenAirInterface’s codebase to generate cellular Virtual Network Functions (VNFs) and deploys Kubernetes to disperse and manage them among multiple worker nodes. Moreover, CN2F leverages ONOS and Mininet to emulate the effect of the IP transport networks in the fronthaul and backhaul of real-world cellular networks. Using CN2F, we implement different network scenarios, including Edge Computing (EC), Cloud Computing (CC), and Radio Access Network (RAN) slicing, to showcase the effectiveness of the proposed testbed for academia and industrial Research and Development (R&D) activities.}
 }
 
@@ -80,8 +80,8 @@
   abstract = {Program analysis tools such as CodeQL enable programmers to express their questions about codebases in the form of declarative queries, which are then evaluated over structured representations of the code. These versatile tools have broad applications in bug finding, vulnerability discovery, and codebase exploration. Still, they are limited in their ability to answer questions that rely on semantic judgments which cannot be expressed or decided using program analysis tools alone, e.g., identifying string literals that contain private information or violations of naming conventions.   In this paper, we present SemQL, a system which extends declarative program analysis frameworks with the ability to invoke an LLM as an external oracle. SemQL allows developers to write queries which combine structural reasoning with semantic (extra-analytic) judgments. We show the real-world value of such a system by collecting a set of analytic questions that require semantic reasoning beyond what is deducible simply from the structure of the code. We also present an algorithm which efficiently evaluates these queries while minimizing costly oracle invocations, and demonstrate its effectiveness in practical program analysis tasks.},
   pdf={RichKD.pdf},
   bibtex_show={true},
-  abbr={SOAP},
+  abbr={SOAP'26},
   code={https://github.com/SaraBaradaran/SemQL},
-  preview={KD.jpg}
+  %preview={KD.jpg}
 }
 	
