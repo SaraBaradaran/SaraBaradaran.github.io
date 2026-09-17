@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attended SoCal PLS 2025 at UCSD
+I attended SoCal PLS 2025 at UC San Diego and gave a talk on "Fault Localization Through Probabilistic Models of Program Execution".
