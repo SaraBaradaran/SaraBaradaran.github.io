@@ -2,105 +2,150 @@
   type: map
   contents:
     - name: Full Name
-      value: Amir Mohammad Mansourian
-    - name: Date of Birth
-      value: 15th October 1998
-    - name: Languages
-      value: Persian, English, Kurdish
+      value: Sara Baradaran
+    - name: Website
+      value: <a href="https://SaraBaradaran.github.io">SaraBaradaran.github.io</a>
+    - name: Email
+      value: sbaradar@usc.edu
+    - name: Location
+      value: Los Angeles, CA, USA
 
 - title: Education
   type: time_table
   contents:
-    - title: M.Sc.
-      institution: Sharif University of Technology, Tehran, Iran
-      year: 2021-2023
+    - title: Ph.D. in Computer Science
+      institution: University of Southern California, Los Angeles, USA
+      year: 2023-Present
       description:
-        - Thesis Title. Deep Multi-Object Tracking by Part-Based Re-Identification in Soccer Matches 
+        - GPA: 4.0/4.0
 
+    - title: M.Sc. in Computer Science
+      institution: University of Southern California, Los Angeles, USA
+      year: 2023-2025
+      description:
+        - GPA: 4.0/4.0
 
-    - title: B.Sc.
+    - title: B.Sc. in Computer Engineering
       institution: Isfahan University of Technology, Isfahan, Iran
-      year: 2017-2021
+      year: 2017-2022
       description:
-        - Thesis Title. Biometric Image Processing for Authentication and Identification of Persons
+        - GPA: 19.49/20 (4.0/4.0)
 
-- title: Experience
+- title: Research & Work Experience
   type: time_table
   contents:
-
-    - title: Research and Develop Position
-      institution: AlgoNet Research, Tehran, Iran
-      year: 2024-Present
+    - title: Graduate Research Assistant
+      institution: University of Southern California, Program Reasoning Lab, Los Angeles, USA
+      year: 2023-Present
       description:
-        - Description 1. Developement of a novel relative positional encoding method for length extrapolation of LLMs in next token prediction task by learning context-aware biases. 
-        - Description 2. Development of a comprehensive text detection and recognition system using multimodal VLMs for Persian document analysis.
-  
-    - title: Research Assistant
-      institution: Sharif University of Technology, Tehran, Iran
-      year: 2021-2024
-      description:
-        - Description 1. The proposal and implementation of a multi-purpose part-based person representation method for part-based tracking of persons in team sport videos.
-        - Description 2. The proposal and implementation of a pair-wise distillation approach by transferring inter-class similarities for semantic segmentation.
+        - Worked on probabilistic Bayesian reasoning for software fault localization and type inference.
+        - Designed SemQL, an extension of the CodeQL query language for writing semantic queries over code.
 
-    - title: Research Internship
-      institution: UCLouvain, Louvain-la-Neuve, Belgium
-      year: Summer 2022
+    - title: Undergraduate Research Assistant
+      institution: Isfahan University of Technology, Intelligent Mobile Networks Lab, Isfahan, Iran
+      year: 2022-2023
       description:
-        - Description. The development and implementation of a multi-object tracking solution exploiting re-identification descriptors.
-    
+        - Designed and implemented a testbed for intelligent 5G networks.
 
-- title: Open Source Projects
+    - title: Undergraduate Research Assistant
+      institution: Isfahan University of Technology, Software Security Lab, Isfahan, Iran
+      year: 2020-2022
+      description:
+        - Developed an automated framework for detecting software vulnerabilities in binary executables.
+
+- title: Software Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/TrackingLaboratory/tracklab">TrackLab</a>
-      year: 2024
-      description: A modular end-to-end tracking framework for research and development.
+    - title: SemQL
+      description:
+        - An extension of the CodeQL query language for writing semantic queries over code.
+
+    - title: Prosecutor
+      description:
+        - Fault localization tool for Java software that leverages counterfactual reasoning and Bayesian inference.
+
+    - title: FitSlicer
+      description:
+        - A Java code slicer for effective test case minimization.
+
+    - title: WasmChecker
+      description:
+        - Framework for differential testing between C/C++ programs and their WebAssembly counterparts.
+
+    - title: UbSym
+      description:
+        - Framework for detecting memory corruption vulnerabilities in x86-64 binary code.
+
+    - title: Wuzzer
+      description:
+        - Web fuzzer for detecting XSS, SQL, and command injection vulnerabilities in websites.
+
+- title: Academic Service
+  type: time_table
+  contents:
+    - title: Journal Reviewer
+      year: 2025-2026
+      description:
+        - ACM Transactions on Software Engineering and Methodology (TOSEM), 2025 and 2026
+        - IEEE Access, 2026
+
+    - title: Artifact Evaluation Committee
+      year: 2025-2027
+      description:
+        - IEEE Symposium on Security and Privacy (IEEE S&P), 2027
+        - ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL), 2027
+        - ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA), 2026
+        - ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), 2026
+        - IEEE Annual Computer Security Applications Conference (ACSAC), 2025
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: University of Southern California, Los Angeles, USA
+      year: 2024-2025
+      description:
+        - CSCI 350, Introduction to Operating Systems
+        - CSCI 530, Security Systems
+
+    - title: Teaching Assistant
+      institution: Isfahan University of Technology, Isfahan, Iran
+      year: 2018-2023
+      description:
+        - Advanced Programming Lab
+        - Operating Systems Lab
+        - Fundamentals of Computer Security
+        - Compiler Design
+        - Algorithm Design and Analysis
+        - Discrete Mathematical Structures
+        - C Programming Lab
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2024
-      items: 
-        - Participating as reviewer at CVsports workshop, CVPRW 2024.
-        - Best paper award at International Conference on Machine Vision and Image Processing 2024.
-
-    - year: 2023
-      items: 
-        - Participating as a part of organizer team of SoccerNet 2023 Challenges
-        - Participating as reviewer in the peer review process for AUT Journal of Electrical Engineering
-
-    - year: 2021
-      items: 
-        - Ranked 7th among undergraduate students in Bachelor
-        - Ranked 10th (top 0.05%) in the National Entrance Exam for M.Sc. degree in Computer Engineering
-        - Ranked 5th at National Computer Engineering Olympiad
+    - year: 2017-2022
+      items:
+        - Ranked 1st in the Electrical and Computer Engineering Department of Isfahan University of Technology among more than 280 undergraduate students.
 
     - year: 2017
-      items: 
-        - Ranked in top 1% in the National Entrance Exam for B.Sc. of Iran, among more than 148,000 students in the field of Mathematics and Physics
+      items:
+        - Ranked in the top 0.5% in Iran's National Entrance Exam for B.Sc. programs in Mathematics and Physics.
+
+    - year: 2015
+      items:
+        - Placed 2nd in the Junior Soccer Open Weight League at the RoboCup IranOpen International Competitions.
 
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Computer Vision
-      items: 
-        - Computer Vision
-        - Image/Video Processing
-        - Machine Learning
-        #- Multi-Object Tracking
-        #- Person Re-Identification
-        #- Semantic Segmentation
-        #- Video Understanding
-        #- Team Sport Video Analysis
-        
-    #- title: Deep Learning
-      #items:
-        #- Knowledge Distillation
-        #- Compacting Deep Networks
-        #- Self-supervised Learning
-        #- Adverserial Attack and Defence
+    - title: Software Engineering & Programming Languages
+      items:
+        - Program Analysis
+        - Software Testing and Verification
+        - Automated Reasoning
+        - ML/AI for Software Engineering
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Playing/Watching Football, Playing Guitar, Climbing.
+    - title: Software Security
+      items:
+        - Software Security
+        - Binary Analysis
