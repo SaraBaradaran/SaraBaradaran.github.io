@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blogs
-permalink: /
+permalink: /blogs/
 subtitle: 
 
 news: false  # includes a list of news items
